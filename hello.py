@@ -14,15 +14,23 @@
 # print("support@", name)
 # print("www@", name)
 
-age = 22
-height = 5.5
-name = "Harmeet"
-isStudent = True
-salary = None
-print("Name:", name, "NameLength:", len(name),"Name:",type(name),
-       "\n", "Height:", height,"Height:", type(height),
-       "\n", "Age", age, "Age", age.bit_length(),"Age", type(age),
-      "\n", "IsStudent", isStudent ,"\n", "IsStudent", isStudent.bit_length(),"IsStudent" , type(isStudent),
-        "\n","Salary", salary, "Salary", type(salary) )
+# age = 22
+# height = 5.5
+# name = "Harmeet"
+# isStudent = True
+# salary = None
+# print("Name:", name, "NameLength:", len(name),"Name:",type(name),
+#        "\n", "Height:", height,"Height:", type(height),
+#        "\n", "Age", age, "Age", age.bit_length(),"Age", type(age),
+#       "\n", "IsStudent", isStudent ,"\n", "IsStudent", isStudent.bit_length(),"IsStudent" , type(isStudent),
+#         "\n","Salary", salary, "Salary", type(salary) )
 
-print(name.count)
+# print(name.count)
+
+number = "+49 (176) 123-4567"
+number= "00"+ number.replace("+" , "" ).replace("(" , "").replace(")" , "").replace(")" , "").replace("-" ,"").replace(" " ,"")
+# number =number.replace("(" , "")
+# number =number.replace(")" , "")
+# number =number.replace("-" ,"")
+# number =number.replace(" " ,"")
+print(number)
