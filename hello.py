@@ -27,11 +27,12 @@
 
 # print(name.count)
 
-number = "+49 (176) 123-4567"
-number = "00" + number.replace("+", "").replace("(", "").replace(")",
-                                                                 "").replace(")", "").replace("-", "").replace(" ", "")
+# number = "+49 (176) 123-4567"
+# number = "00" + number.replace("+", "").replace("(", "").replace(")",
+#                                                                  "").replace(")", "").replace("-", "").replace(" ", "")
 # number =number.replace("(" , "")
 # number =number.replace(")" , "")
 # number =number.replace("-" ,"")
 # number =number.replace(" " ,"")
-print(number)
+# print(number)
+# print(round(5.5))
