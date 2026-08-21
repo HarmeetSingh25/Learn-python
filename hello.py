@@ -36,3 +36,6 @@
 # number =number.replace(" " ,"")
 # print(number)
 # print(round(5.5))
+
+string = "968-Maria,  (D@t@  Engineer );; 27y  "
+print(f"Name:{string[4:9]} | Role:{string[13:28]} | age:{string[-5: -3]}")
