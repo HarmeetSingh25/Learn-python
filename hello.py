@@ -37,5 +37,10 @@
 # print(number)
 # print(round(5.5))
 
-string = "968-Maria,  (D@t@  Engineer );; 27y  "
-print(f"Name:{string[4:9]} | Role:{string[13:28]} | age:{string[-5: -3]}")
+# string = "968-Maria,  (D@t@  Engineer );; 27y  "
+# print(f"Name:{string[4:9]} | Role:{string[13:28]} | age:{string[-5: -3]}")
+number= "+48-176-12345"
+emial ="xyz@gmail.com"
+# print(number.startswith("+48"))
+# print(number.endswith("45"))
+print( "@" in emial)
